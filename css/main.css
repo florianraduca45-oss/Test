@@ -1,0 +1,89 @@
+
+body{
+    background-color: rgb(255, 255, 255);
+    justify-items: center;
+    font-family: 'Open Sans', 'Montserrat', sans-serif;
+}
+
+
+.resume-container{
+    display: flex;
+    background-color: white;
+    font-size: 14px;
+    width: 800px;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+
+
+
+.sidebar{
+    display: flex;
+    flex-direction:column;
+    width: 30%;
+    background-color: #173160fb;
+    color: white;
+    padding: 2%;
+    margin-bottom: 40px;
+    padding-left: 20px;
+    font-size: 12px;
+}
+
+img{    
+    inline-size: 70%;
+    margin-top: 20px;
+    margin-left: 30px;
+    border-radius: 50%;
+}
+
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    margin-top: 50px;
+    padding-right: 20px;
+}
+
+h1{
+    margin-bottom: 0;
+}
+
+.subtitle{
+    margin-top: 2px;
+    margin-bottom: 40px;
+    color: rgba(97, 82, 82, 0.638);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.contact-item, .skills-item, .language-item{
+    display: block;
+    margin: 3px;
+}
+
+.skill-tag{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-bottom: 1px;
+}
+
+.contact-item{
+    display: flex;
+    flex-direction: column;
+}
+
+.info-group,span{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.date{
+    font-style: italic;
+}
+
+.experience-item{
+    margin-bottom: 0;
+}
